@@ -1,0 +1,54 @@
+p{
+    color: red;
+}
+p:first-child{
+    color: green;
+}
+
+p:last-of-type{
+    color: yellow;
+}
+
+p:nth-child(even){
+    color: blue;
+}
+
+p:nth-child(odd){
+    color: brown;
+}
+
+p:nth-child(5), p:nth-child(6){
+    color: orange;
+}
+
+.zoneA{
+    color: #f56f56;
+}
+
+.zoneB{
+    color: #996633;
+}
+.zoneC{
+    color: #98f32f;
+}
+.couleurBleu{
+    color: #336699;
+}
+#zoneC:after{
+    content: "x";
+}
+
+#zoneD span{
+    color: #32ff32;
+}
+
+/*
+Différence entre classes & id :
+Une classe est appelé par un point '.'
+un id est appelépar le signe #
+
+règle d'écriture
+div.zone() veut dire "va me chercher la div qui posséde la classe 'zone'"
+div.zone() veut dire "va me chercher la classe 'zone' qui se trouve à l'intérieur de la div"
+.maclasse, .maclass2{} on applique le style sur plusieur éléments
+*/

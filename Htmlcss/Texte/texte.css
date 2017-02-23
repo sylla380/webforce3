@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'maneo_trialmaneo_trial';
+    src: url('police/maneo_trial-webfont.woff2') format('woff2'),
+         url('police/maneo_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'maneo_trialmaneo_trial';
+    font-size: 50px;
+}
