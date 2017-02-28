@@ -1,0 +1,35 @@
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+#container{
+    background-color: red;
+
+
+}
+
+header{
+    height: 80px;
+    background: #red;
+    text-align: left;;
+    padding-top: 6px;
+}
+
+.nav{
+    height: 500px;
+    background: blue;
+    text-align: left;
+    float: left;
+    width: 10%;
+    }
+
+    .centre{
+        text-align: left;
+        background: green;
+        height: 500px;
+        text-align: left;;
+    }
+
+    p{
+        margin: 0;
+    }

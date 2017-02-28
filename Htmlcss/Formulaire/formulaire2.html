@@ -1,0 +1,161 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire2.css" />
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <fieldset id="info">
+            <legend>Informations</legend>
+        <label for="nom">Nom</label><br />
+        <input type="text" id="pseudo" name="pseudo" placeholder="Nom" required /><br />
+
+        <label for="pseudo">Prénom</label><br />
+        <input type="text" id="prenom" name="prenom" placeholder="Prenom" /><br />
+
+        <label for="telephone">Téléphone</label><br />
+        <input type="tel" pattern="[0-9] {10}" id="telephone" name="telephone" maxlength="10" placeholder="Telephone" /><br />
+
+
+        <label for="ville">Ville</label><br />
+        <input type="text" id="ville" name="ville" list="france" placeholder="Ville" />
+        <datalist id="france">
+            <option>Bordeaux</option>
+            <option>Lille</option>
+            <option>Caen</option>
+        </datalist><br />
+
+        <label for="cp">Code Postal</label><br />
+        <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiiffres requis entre 0 et 9"placeholder="Code postal" /><br /><br />
+
+        <label for="adresse">Adresse</label><br />
+        <textarea id="adress" name="adresse" rows="5" cols="25" placeholder="Adresse" ></textarea><br /><br />
+    </fieldset>
+
+
+    <fieldset>
+    <legend>Date de Naissance</legend>
+        <div>
+        <label for="jour">Jour</label><br /><br />
+        <label for="Mois">Mois</label><br /><br />
+        <label for="Annee">Annee</label>
+        </div>
+
+        <select id="jour">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select><br /><br />
+
+
+        <select id="Mois">
+            <option>Janvier</option>
+            <option>Fevrier</option>
+            <option>Mars</option>
+            <option>Avril</option>
+            <option>Mai</option>
+            <option>Juin</option>
+            <option>Juillet</option>
+            <option>Aout</option>
+            <option>Septembre</option>
+            <option>Octobre</option>
+            <option>Novembre</option>
+            <option>Decembre</option>
+        </select><br /><br />
+
+
+        <select id="Annee">
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+            <option>2004</option>
+            <option>2003</option>
+            <option>2002</option>
+            <option>2001</option>
+            <option>2000</option>
+        </select><br /><br />
+    </fieldset>
+
+    <fieldset>
+        <legend>Civilité</legend>
+        <div>
+            <label for="homme">homme</label><br /><br />
+            <label for="Femme">Femme</label>
+        </div>
+        <input type="radio" name="homme" id="homme">
+        <br /><br />
+        <input type="radio" name="femme" id="femme">
+    </fieldset>
+
+<fieldset>
+    <legend>Informations Facultatives</legend>
+    <label for="Description">description</label><br />
+    <textarea id="description" name="adresse" rows="" cols="21" placeholder="description" ></textarea><br /><br />
+</fieldset><br /><br />
+
+<input id="submit" type="submit" name="inscription" value="S'inscrire" /><br /><br />
+
+
+    </form>
+</body>
+</html>
+<!--
+method : comment faire circuler les donées ? post, get.
+action : url destination
+enctype : multipart-data/form: ppur envoyer des fichiers
+label = etiquette(indication)
+for : nom relié au for
+textarea : zone de saisie - rows: vertical, cols : horizontal
+input : élément du formulaire
+id : nom relié au for
+type : text - case de saisie cryptée
+type : password - cas de saisie cryptée
+type : email - case de saisie au format email
+type : radio- case à cocher unique
+type : checkbox - case a cocher
+type : hidden - champs caché
+list : permet de s'alimenter de suggestion avec une list
+name : nom pour futur récuperation en PHP
+required : permet de rendre le champs obligatoire
+disabled : désactive la saisie
+placeholder : indication pésaisie
+maxlength : longueur maximum
+pattern : expression réguliere avec liste de caractères
+autorisés - title permet de personnaliser le message d'erreur dans l'infobulle
+select : liste déroulante
+option : option
+datalist : contient la liste d'option en cas de suggestion demandé dans l'attribut list 

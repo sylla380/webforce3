@@ -1,0 +1,14 @@
+ul.fruit{
+    list-style-type: none;
+}
+
+ul.fruit li{
+    float: left;
+    margin: 15px;
+    background: url('icone.png') left center no-repeat;
+    padding: 0 0 0 17px;
+}
+
+.clear{
+    clear: both;
+}
