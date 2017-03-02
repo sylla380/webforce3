@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: #eee;
+    height: 100px;
+}
+
+#hdg{
+    background-color: blue;
+    height: 100px;
+    width: 70px;
+    float: left;
+}
+#hdmenu{
+    min-height: 20px;
+    width: 100%;
+    margin :0 auto;
+    float:left;
+    background-color: yellow;
+    text-align: center;
+}
+#hdc{
+    background: red;
+    height: 100px;
+    float: left;
+}
+#hdd{
+    background: orange;
+    height: 100px;
+    float: right;
+}
+#hdd2{
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+#hdd3{
+    float: right;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+#entreprise{
+    float: right;
+}
+.gauche{
+    width: 60%;
+    float: left;
+    background: green;
+    height: 700px;
+}
+.droite{
+    width: 40%;
+    float: left;
+    background: pink;
+    height: 700px;
+}
+
+#table1{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#table2{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+#table3{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-left: 30px
+}
+.titretableau{
+    
+}
