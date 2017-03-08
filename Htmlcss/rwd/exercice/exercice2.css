@@ -1,0 +1,66 @@
+.conteneur{
+	width: 100%;
+	background: #40A497;
+	margin: 0 auto;
+	color: #fff;
+}
+header{
+	height: 80px;
+	background: #A4409A;
+	width: 100%;
+}
+nav{
+	height: 30px;
+	background: yellow;
+	width: 100%;
+}
+section{
+	background: #89297C;
+	height: 500px;
+	width: 100%;
+}
+.a, .c, .e, .g{
+	width: 25%;
+	float: left;
+	min-height: 20vh;
+}
+.b, .f{
+	width: 50%;
+	float: left;
+	height: 20vh;
+}
+.d{
+	width: 100%;
+	float: left;
+	height: 20vh;
+}
+.a{
+	background: red;
+}
+.b{
+	background: blue;
+}
+.c{
+	background: green;
+}
+.d{
+	background: pink;
+}
+.e{
+	background: purple;
+}
+.f{
+	background: brown;
+}
+.g{
+	background: gray;
+}
+footer{
+	height: 60px;
+	background: #E80B28;
+	width: 100%;
+	float: left;
+}
+.clear{
+	clear: both;
+}

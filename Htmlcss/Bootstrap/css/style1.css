@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid;
+}
+header{
+    height: 100px;
+}
+section{
+    height: 550px;
+}
+div{
+    height: 100%;
+}
+footer{
+    height: 60px;
+}
+.bordureRouge{
+    border: 3px solid red;
+    padding: 10px;
+}
+.bordureVerte{
+    border: 3px solid green;
+    padding: 10px;
+}
+.bordureBleue{
+    border: 3px solid blue;
+    padding: 10px;
+}
+.bordureJaune{
+    border: 3px solid yellow;
+    padding: 10px;
+}
+.bordureOrange{
+    border: 3px solid orange;
+    padding: 10px;
+}
